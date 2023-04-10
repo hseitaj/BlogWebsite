@@ -20,9 +20,7 @@ app.use(express.static("public"));
 //let posts = [];
 
 mongoose.set('strictQuery', false);
-// atlas link  : mongodb+srv://admin-hansi:hansi123@cluster0.40xd3aa.mongodb.net/todolistDB
-//mongoose.connect('mongodb://localhost:0.0.0.0:27017/blogDB', { useNewUrlParser: true});
-//password = hansi123
+
 main().catch(err => console.log(err));
 
 async function main() {
