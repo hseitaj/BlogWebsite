@@ -6,9 +6,9 @@ const ejs = require("ejs");
 const _ = require("lodash");
 const mongoose = require("mongoose");
 
-const homeStartingContent = "Lacus vel facilisis volutpat est velit egestas dui id ornare. Semper auctor neque vitae tempus quam. Sit amet cursus sit amet dictum sit amet justo. Viverra tellus in hac habitasse. Imperdiet proin fermentum leo vel orci porta. Donec ultrices tincidunt arcu non sodales neque sodales ut. Mattis molestie a iaculis at erat pellentesque adipiscing. Magnis dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Adipiscing elit ut aliquam purus sit amet luctus venenatis lectus. Ultrices vitae auctor eu augue ut lectus arcu bibendum at. Odio euismod lacinia at quis risus sed vulputate odio ut. Cursus mattis molestie a iaculis at erat pellentesque adipiscing.";
-const aboutContent = "Hac habitasse platea dictumst vestibulum rhoncus est pellentesque. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Non diam phasellus vestibulum lorem sed. Platea dictumst quisque sagittis purus sit. Egestas sed sed risus pretium quam vulputate dignissim suspendisse. Mauris in aliquam sem fringilla. Semper risus in hendrerit gravida rutrum quisque non tellus orci. Amet massa vitae tortor condimentum lacinia quis vel eros. Enim ut tellus elementum sagittis vitae. Mauris ultrices eros in cursus turpis massa tincidunt dui.";
-const contactContent = "Scelerisque eleifend donec pretium vulputate sapien. Rhoncus urna neque viverra justo nec ultrices. Arcu dui vivamus arcu felis bibendum. Consectetur adipiscing elit duis tristique. Risus viverra adipiscing at in tellus integer feugiat. Sapien nec sagittis aliquam malesuada bibendum arcu vitae. Consequat interdum varius sit amet mattis. Iaculis nunc sed augue lacus. Interdum posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Pulvinar elementum integer enim neque. Ultrices gravida dictum fusce ut placerat orci nulla. Mauris in aliquam sem fringilla ut morbi tincidunt. Tortor posuere ac ut consequat semper viverra nam libero.";
+const homeStartingContent = "Welcome to the Daily Journal, your go-to platform for sharing and discovering fascinating stories and ideas. Here, we believe in the power of expression and the magic that unfolds when words come alive. Explore a myriad of posts, dive into different perspectives, and perhaps, unveil a new realm of imagination. Your journey through a world curated by thoughts and experiences begins here.";
+const aboutContent = "The Daily Journal was founded with a simple yet profound mission - to create a space where thoughts can flourish and writers can share their insights with the world. Over the years, we've grown into a community that thrives on diverse ideas and the inherent beauty of personal narratives. Our platform is built on the principles of open expression, curiosity, and a deep appreciation for the art of storytelling.";
+const contactContent = "We'd love to hear from you! Whether you have a query, feedback, or simply wish to share your thoughts, feel free to reach out. Our team is always excited to engage with our readers and writers. You can contact us via email at contact@dailyjournal.com or drop by our office at 123 Journal St., Storyville. Let's keep the conversation going!";
 
 const app = express();
 
@@ -20,7 +20,9 @@ app.use(express.static("public"));
 //let posts = [];
 
 mongoose.set('strictQuery', false);
-
+// atlas link  : mongodb+srv://admin-hansi:hansi123@cluster0.40xd3aa.mongodb.net/todolistDB
+//mongoose.connect('mongodb://localhost:0.0.0.0:27017/blogDB', { useNewUrlParser: true});
+//password = hansi123
 main().catch(err => console.log(err));
 
 async function main() {
