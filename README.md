@@ -32,7 +32,10 @@ This repository contains the code for a Blog web application designed with Node.
 
 ## Project Description
 
-The BlogWebsite project aims to create a simple yet functional platform where users can create and share blog posts. The layout and design are inspired by [Paul Graham's Essays page](http://www.paulgraham.com/articles.html). While the primary focus is on functionality, a significant emphasis is also placed on the styling to ensure a seamless user experience across different device types.
+The BlogWebsite project aims to create a simple yet functional platform where users can create and share blog posts. While the primary focus is on functionality, a significant emphasis is also placed on the styling to ensure a seamless user experience across different device types.
+
+![Animation](https://github.com/hseitaj/BlogWebsite/blob/CMPSC/public/css/blogwebsite.gif)
+
 
 ### Core Features
 
@@ -53,21 +56,3 @@ The BlogWebsite project aims to create a simple yet functional platform where us
 - A functional Node.js project for the website.
 - At least one EJS file defining the structure of the website.
 - At least one CSS file for styling the website.
-
-## Example
-
-A visual representation of the project's goal can be found at [Paul Graham's Essays page](http://www.paulgraham.com/articles.html).
-
-## Contributing
-
-Feel free to fork the project, create a feature branch, and open a Pull Request if you have additions or fixes to contribute.
-
----
-
-## Changes Made
-
-- Added a **Prerequisites** section under Installation, specifying the need for Node.js and MongoDB.
-- Included steps to create a `.env` file for storing MongoDB connection URI.
-- Added a **Contributing** section encouraging community involvement.
-- Included a **Technical Stack** section detailing the technologies used.
-- Mentioned the necessity of connecting to a MongoDB database under the Technical Stack section, aligning with the initial project description.
