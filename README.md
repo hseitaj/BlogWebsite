@@ -50,9 +50,3 @@ The BlogWebsite project aims to create a simple yet functional platform where us
 - **Frontend**: EJS is employed as the templating engine, generating dynamic HTML based on the application's state.
 - **Database**: While the initial version does not persist posts between sessions, connecting to a MongoDB database is required for future versions.
 - **Styling**: A dedicated CSS file is used for styling the website, ensuring a visually appealing and user-friendly interface.
-
-## Deliverables
-
-- A functional Node.js project for the website.
-- At least one EJS file defining the structure of the website.
-- At least one CSS file for styling the website.
